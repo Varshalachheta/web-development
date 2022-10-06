@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Box Model </title>
+        <style>
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background-color: aquamarine;
+            }
+            .container{
+                background-color: rgb(168, 232, 240);
+                border: 4px solid rgb(202, 201, 201) ;
+                padding: 30px;
+                margin: 10px;
+                /* padding , marging = top right bottom left */
+                border-radius: 20px;
+                
+                box-sizing: border-box;
+                
+            }
+        </style>
+    </head>
+    <body>
+      <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nobis dolorum nam. Quis, nostrum aliquid esse quod ullam ipsa sed ab laudantium perspiciatis laborum assumenda exercitationem voluptatem ipsum tenetur in.</p>
+        </div>
+        <div class="container">
+            <h3>This is my heading</h3>
+            <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nobis dolorum nam. Quis, nostrum aliquid esse quod ullam ipsa sed ab laudantium perspiciatis laborum assumenda exercitationem voluptatem ipsum tenetur in.</p>
+       </div>
+       <div class="container">
+
+                <h3>This is my heading</h3>
+                <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nobis dolorum nam. Quis, nostrum aliquid esse quod ullam ipsa sed ab laudantium perspiciatis laborum assumenda exercitationem voluptatem ipsum tenetur in.</p>
+        
+        </div>  
+    </body>
+</html>

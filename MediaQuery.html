@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Media Queries</title>
+        <style>
+            .box{
+                background-color: aqua;
+                color: beige;
+                text-align: center;
+                font-size: 50px;
+                 display: none; 
+            }
+            @media only screen and (max-width:300px) {
+                #box1{
+                    display: block;
+                    background-color: blue;
+                }
+                
+            }
+            @media only screen and (max-width:600px) and (min-width:300px){
+                #box2{
+                    display: block;
+                    background-color: rgb(63, 165, 42);
+                }
+                
+            }
+            @media only screen and (max-width:1200px) and (min-width:800px){
+                #box3{
+                    display: block;
+                    background-color: rgb(165, 42, 165);
+                }
+                
+            } @media only screen and  (max-width:800px){
+                #box4{
+                    display: block;
+                    background-color: brown;
+                }
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box" id="box1">I am smart</div>
+        <div class="box" id="box2"> I am beautiful</div>
+        <div class="box" id="box3"> I am what..? </div>
+        <div class="box" id="box4">I am beauty with brain</div>
+    </body>
+</html>
