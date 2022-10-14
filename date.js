@@ -12,7 +12,7 @@ let newDate = new Date("2024-02-26")
 console.log(newDate);
 
 /// new Date(year, month, date, hours, minutes, seconds, milliseconds) /// 
- let eg = new Date (3020 , 4 , 6 , );
+ let eg = new Date (3020 , 4 , 6 );
  console.log (eg);
 
  let yr = eg.getFullYear();
@@ -23,3 +23,18 @@ console.log(newDate);
 
  let month = eg.getMonth();
  console.log("the month is ", month);
+
+ let day = eg.getDay();
+ console.log("the day is " , day);
+//// change date ///
+ eg.setDate(5)
+ console.log(eg);
+
+ /// current stamp //
+ Date.now();
+
+ setInterval(updateTime,1000);
+
+ function updateTime(){
+    time.innerHTML = new Date();
+ }
