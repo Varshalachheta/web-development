@@ -19,3 +19,15 @@ let half = a => a/2;
 
 let msg = () => console.log("good to see you");
 msg();
+
+//// objects
+
+let obj1 ={
+    names: ["varsha", "sanju","lata"],
+    speak(){
+        this.names.forEach((student)=>{
+            console.log("welcome! " + student );
+        });
+    }
+}
+obj1.speak();
