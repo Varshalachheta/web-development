@@ -23,7 +23,7 @@ msg();
 //// objects
 
 let obj1 ={
-    names: ["varsha", "sanju","lata"],
+    names: ["varsha", "sanju","lata","jaymangla"],
     speak(){
         this.names.forEach((student)=>{
             console.log("welcome! " + student );
