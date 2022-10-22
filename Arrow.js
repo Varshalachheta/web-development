@@ -23,10 +23,11 @@ msg();
 //// objects
 
 let obj1 ={
+    greeting: "good day",
     names: ["varsha", "sanju","lata","jaymangla"],
     speak(){
         this.names.forEach((student)=>{
-            console.log("welcome! " + student );
+            console.log( this.greeting + " dear " + student );
         });
     }
 }
